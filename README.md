@@ -41,6 +41,13 @@ In practice, you can begin with a set of defaults and optionally modify individu
 python main.py [subcommand] [...] --help
 ```
 
+## Checkpoints
+
+MobileNetv2 trained on CIFAR-10 with LaCoOT with $\lambda=9$ is available in the [checkpoints](./checkpoints/) folder.
+ResNet-18 and Swin-T trained on CIFAR-10 are open-sourced and can be downloaded from Google Drive:
+- [ResNet-18 checkpoint](https://drive.google.com/file/d/1-qZmrjahNNIKetAl_9C49ZC6FPFRcVGq/view?usp=drive_link)
+- [Swin-T checkpoint](https://drive.google.com/file/d/1PU9r9xKpumcWacvq6FUkp5xfigSIPcDX/view?usp=drive_link)
+
 ## Example Runs
 
 ### Training
